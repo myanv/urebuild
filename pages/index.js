@@ -38,6 +38,8 @@ export default function Home({ posts }) {
             })
           }
         </div>
+      
+      
         
       </main>
 
@@ -51,6 +53,7 @@ export default function Home({ posts }) {
 
 export async function getStaticProps(){
 
+  /*
   // GraphQL query to get all posts
   const GET_POSTS = gql`
   
@@ -65,6 +68,25 @@ export async function getStaticProps(){
       }
     }
 
+  `
+  */
+
+  const GET_POSTS = gql`
+    query GetAllPosts {
+      posts {
+        nodes {
+          title
+          content
+          uri
+          featuredImage {
+            node {
+              sourceUrl
+            }
+          }
+          date
+        }
+      }
+    }
   `
   const response = await client.query({
     query: GET_POSTS
