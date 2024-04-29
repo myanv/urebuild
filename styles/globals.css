@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    color: #060606;
+    height: 3000px;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    color: #060606;
+    font-family: "Figtree", sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+   
+  main {
+    width: 100%;
+  }
+  
+  .dropdown-menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
