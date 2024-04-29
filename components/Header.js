@@ -6,12 +6,11 @@ export default function Header() {
             <summary className="m-1 btn w-20 btn-neutral">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </summary>
-            <ul tabIndex={0} className="menu menu-lg dropdown-content w-screen z-[1] shadow bg-base-100">
+            <ul tabIndex={0} className="menu menu-lg dropdown-content w-screen z-[99] shadow bg-base-100">
             <li><a>About Us</a></li>
-            <li><a>Join Us</a></li>
             <li>
               <details>
-                <summary>Projects</summary>
+                <summary>Our Work</summary>
                 <ul className="p-2">
                   <li><a>Microenterprise Development Project</a></li>
                   <li><a>Student Relief Project</a></li>
@@ -19,30 +18,25 @@ export default function Header() {
                 </ul>
               </details>
             </li>
+            <li><a>Where we work</a></li>
+            <li><a>Join Us</a></li>
+            <li><a>Apply For Help</a></li>
             <li><a>Donate</a></li>
             </ul>
           </details>
           <a className="btn btn-ghost text-xl font-sans">Placeholder</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-sans text-xl">
             <li><a>About Us</a></li>
+            <li><a>Our Work</a></li>
+            <li><a>Where we work</a></li>
             <li><a>Join Us</a></li>
-            <li>
-              <details>
-                <summary>Projects</summary>
-                <ul className="p-2 w-80">
-                  <li><a>Microenterprise Development Project</a></li>
-                  <li><a>Student Relief Project</a></li>
-                  <li><a>Childcare Support Project</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a>Donate</a></li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-lg font-normal">Donate</a>
+          <a className="btn text-lg font-normal btn-neutral mr-2">Apply For Help</a>
+          <a className="btn text-lg font-normal mr-10">Donate</a>
         </div>
       </div>
 
