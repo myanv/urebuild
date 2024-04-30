@@ -8,11 +8,7 @@ export default function Header() {
             </summary>
             <ul tabIndex={0} className="menu menu-lg dropdown-content w-screen z-[99] shadow bg-base-100">
             <li><a>About Us</a></li>
-            <li>
-              <details>
-                <summary>Our Work</summary>
-              </details>
-            </li>
+            <li><a>Our Work</a></li>
             <li><a>Where we work</a></li>
             <li><a>Join Us</a></li>
             <li><a>Apply For Help</a></li>
@@ -30,14 +26,15 @@ export default function Header() {
           </ul>
         </div>
         <div className="navbar-end">
-        <select className="select select-ghost max-w-22">
+        
+          <a className="btn text-xs lg:text-lg btn-neutral lg:mr-2 mr-1">Apply For Help</a>
+          <a className="btn text-xs lg:text-lg lg:mr-2">Donate</a>
+          <select className="select text-xs lg:text-md pr-5 select-ghost max-w-22">
           <option disabled selected>LANG</option>
           <option>English</option>
           <option>Arabic</option>
           <option>...</option>
         </select>
-          <a className="btn text-md font-bold btn-neutral ml-0 lg:ml-1 mr-2">Apply For Help</a>
-          <a className="btn text-md mr-2 lg:mr-10">Donate</a>
         </div>
       </div>
 

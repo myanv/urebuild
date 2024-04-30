@@ -22,15 +22,15 @@ export default function Home({ posts }) {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="w-xl">
-            <h1 className="mb-10 text-5xl font-bold">URebuild Project</h1>
-            <button className="btn btn-neutral size-1/2 text-lg">SUPPORT TODAY!</button>
+            <h1 className="mb-10 text-4xl lg:text-6xl font-bold">URebuild Project</h1>
+            <button className="btn btn-neutral size-3/4 lg:size-1/2 text-md">SUPPORT TODAY!</button>
           </div>
         </div>
       
       </div>
-      <h2 className="m-16 text-3xl text-center w-screen">We are rebuilding the foundations of Uyghur livelihood
+      <h2 className="mx-16 my-10 text-xl lg:text-2xl text-left lg:text-center w-auto">We are rebuilding the foundations of Uyghur livelihood
 through:</h2>
-      <div className="flex flex-row w-screen align-middle justify-between">
+      <div className="flex flex-col lg:flex-row w-screen align-middle justify-between">
           {
             posts.map((post) => {
               return (
@@ -39,22 +39,22 @@ through:</h2>
             })
           }
       </div>
-      <h2 className="mt-36 text-3xl text-center w-screen">Our numbers:</h2>
-      <div className="flex items-center content-center w-screen my-20 mr-20">
+      <h2 className="mt-8 text-2xl lg:text-2xl text-center">Our numbers:</h2>
+      <div className="flex items-center content-center w-screen my-10 mr-20">
         <Statistics></Statistics>
       </div>
 
-      <div className="hero h-80 w-screen bg-red-300 mb-20">
+      <div className="hero h-80 w-auto bg-red-300 mb-20">
         <p className="text-xl">SOCIAL MEDIA STRIP (GraphAPI)</p>
       </div>
 
-      <div className="hero h-fit w-screen mx-12">
+      <div className="hero h-fit w-auto lg:w-screen mx-12">
       <div className="hero-content text-center">
-        <div className="w-3/4">
+        <div className="lg:w-3/4">
           <h1 className="text-3xl font-bold">Let’s rebuild
 our Uyghur future together!</h1>
           <p className="py-6 text-xl">With the current crisis, most of the efforts of NFPs have been addressed to overcome the injustice, leaving out the vital support of everyday Uyghur initiatives and livelihood. We believe supporting community in this way would be victorious step in rebuilding our future together!</p>
-          <button className="btn btn-neutral size-1/2 text-xl mb-36">Would you join us?</button>
+          <button className="btn btn-neutral size-1/2 text-md lg:text-xl mb-36">Would you join us?</button>
         </div>
       </div>
     </div>
