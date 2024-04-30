@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "react-scripts --max_old_space_size=8192 start",
-    "build": "react-scripts --max_old_space_size=8192 build"
+    "start": "next start",
+    "build": "next build"
   },
   "dependencies": {
     "@apollo/client": "^3.5.10",
