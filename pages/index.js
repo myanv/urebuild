@@ -44,10 +44,6 @@ through:</h2>
         <Statistics></Statistics>
       </div>
 
-      <div className="hero h-80 w-auto bg-red-300 mb-20">
-        <p className="text-xl">SOCIAL MEDIA STRIP (GraphAPI)</p>
-      </div>
-
       <div className="hero h-fit w-auto lg:w-screen mx-12">
       <div className="hero-content text-center">
         <div className="lg:w-3/4">
@@ -58,6 +54,10 @@ our Uyghur future together!</h1>
         </div>
       </div>
     </div>
+    <div className="hero h-80 w-auto bg-red-300 mb-20">
+        <p className="text-xl">SOCIAL MEDIA STRIP (GraphAPI)</p>
+      </div>
+      
     <div className="hero h-80 w-screen bg-blue-300">
         <p className="text-xl">NEWSLETTER STRIP (SendGrid API) or DONATE (StripeAPI)</p>
       </div>
