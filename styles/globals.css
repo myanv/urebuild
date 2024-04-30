@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 html {
-    overscroll-behavior: none;
-    overflow-x: hidden;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     color: #060606;
-    height: 3000px;
+    height: fit-content;
   }
   
   body {

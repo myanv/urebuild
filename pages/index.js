@@ -5,6 +5,7 @@ import Project from '../components/Project';
 import { getAllPosts } from '../lib/test-data';
 import { client } from "../lib/apollo";
 import { gql } from '@apollo/client';
+import Statistics from '../components/Statistics';
 
 export default function Home({ posts }) {
   return (
@@ -17,19 +18,19 @@ export default function Home({ posts }) {
         <Header></Header>
         <main>
       
-        <div className="hero min-h-96 w-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+        <div className="hero h-96 w-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">URebuild Project</h1>
-            <p className="mb-5">Rebuilding the foundations of Uyghur livelihood</p>
-            
-            <button className="btn btn-neutral">SUPPORT TODAY!</button>
+          <div className="w-xl">
+            <h1 className="mb-10 text-6xl font-bold">URebuild Project</h1>
+            <button className="btn btn-neutral size-1/2 text-lg">SUPPORT TODAY!</button>
           </div>
         </div>
       
       </div>
-        <div className="grid">
+      <h2 className="m-16 text-4xl text-center w-screen">We are rebuilding the foundations of Uyghur livelihood
+through:</h2>
+      <div className="flex flex-row w-screen align-middle justify-between">
           {
             posts.map((post) => {
               return (
@@ -37,8 +38,29 @@ export default function Home({ posts }) {
               )
             })
           }
+      </div>
+      <h2 className="mt-36 text-4xl text-center w-screen">Our numbers:</h2>
+      <div className="flex items-center content-center w-screen my-20 mr-20">
+        <Statistics></Statistics>
+      </div>
+
+      <div className="hero h-80 w-screen bg-red-300 mb-20">
+        <p className="text-3xl">SOCIAL MEDIA STRIP (GraphAPI)</p>
+      </div>
+
+      <div className="hero h-fit w-screen mx-12">
+      <div className="hero-content text-center">
+        <div className="w-3/4">
+          <h1 className="text-5xl font-bold">Let’s rebuild
+our Uyghur future together!</h1>
+          <p className="py-6 text-3xl">With the current crisis, most of the efforts of NFPs have been addressed to overcome the injustice, leaving out the vital support of everyday Uyghur initiatives and livelihood. We believe supporting community in this way would be victorious step in rebuilding our future together!</p>
+          <button className="btn btn-neutral size-1/2 text-xl mb-36">Would you join us?</button>
         </div>
-      
+      </div>
+    </div>
+    <div className="hero h-80 w-screen bg-blue-300">
+        <p className="text-3xl">NEWSLETTER STRIP (SendGrid API) or DONATE (StripeAPI)</p>
+      </div>
       
         
       </main>

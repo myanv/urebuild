@@ -3,7 +3,7 @@ export default function Header() {
       <div className="navbar w-screen  bg-blue-300 bg-opacity-75">
         <div className="navbar-start">
           <details className="dropdown right-2 lg:hidden">
-            <summary className="m-1 btn w-20 btn-neutral">
+            <summary className="m-1 btn w-15 btn-neutral">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </summary>
             <ul tabIndex={0} className="menu menu-lg dropdown-content w-screen z-[99] shadow bg-base-100">
@@ -35,8 +35,14 @@ export default function Header() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-lg font-normal btn-neutral mr-2">Apply For Help</a>
-          <a className="btn text-lg font-normal mr-10">Donate</a>
+        <select className="select select-ghost max-w-22">
+          <option disabled selected>LANG</option>
+          <option>English</option>
+          <option>Arabic</option>
+          <option>...</option>
+        </select>
+          <a className="btn text-md lg:text-lg font-bold btn-neutral ml-0 lg:ml-1 mr-2">Apply For Help</a>
+          <a className="btn text-md lg:text-lg mr-2 lg:mr-10">Donate</a>
         </div>
       </div>
 
