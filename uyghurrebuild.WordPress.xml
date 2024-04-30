@@ -27,13 +27,13 @@
 
 <channel>
 	<title>UyghurRebuild</title>
-	<link>http://uyghurrebuild.local/</link>
+	<link>https://uyghurrebuildt.wpenginepowered.com</link>
 	<description>Website for UyghurRebuild</description>
 	<pubDate>Fri, 01 Apr 2024 18:24:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://uyghurrebuild.local/</wp:base_site_url>
-	<wp:base_blog_url>http://uyghurrebuild.local/</wp:base_blog_url>
+	<wp:base_site_url>https://uyghurrebuildt.wpenginepowered.com</wp:base_site_url>
+	<wp:base_blog_url>https://uyghurrebuildt.wpenginepowered.com</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[adming]]></wp:author_login><wp:author_email><![CDATA[dev-email@flywheel.local]]></wp:author_email><wp:author_display_name><![CDATA[adming]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -87,10 +87,10 @@
 
 		<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://uyghurrebuild.local/?p=1</link>
+		<link>https://uyghurrebuildt.wpenginepowered.com?p=1</link>
 		<pubDate>Fri, 01 Apr 2022 16:37:35 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/?p=1</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.com?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -146,7 +146,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 					</item>
 					<item>
 		<title><![CDATA[Baby Unicorns]]></title>
-		<link>http://uyghurrebuild.local/baby-unicorns/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.combaby-unicorns/</link>
 		<pubDate>Wed, 09 Feb 2022 21:00:24 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
 		<guid isPermaLink="false">https://myremixapp.wpengine.com/?p=6</guid>
@@ -193,7 +193,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 						</item>
 					<item>
 		<title><![CDATA[Kombucha]]></title>
-		<link>http://uyghurrebuild.local/kombucha/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comkombucha/</link>
 		<pubDate>Wed, 09 Feb 2022 21:00:49 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
 		<guid isPermaLink="false">https://myremixapp.wpengine.com/?p=7</guid>
@@ -240,7 +240,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 						</item>
 					<item>
 		<title><![CDATA[Flannel DIY Fabby Chic]]></title>
-		<link>http://uyghurrebuild.local/flannel-diy-fabby-chic/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comflannel-diy-fabby-chic/</link>
 		<pubDate>Wed, 09 Feb 2022 21:01:12 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
 		<guid isPermaLink="false">https://myremixapp.wpengine.com/?p=8</guid>
@@ -287,7 +287,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 						</item>
 					<item>
 		<title><![CDATA[Narwal]]></title>
-		<link>http://uyghurrebuild.local/narwal/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comnarwal/</link>
 		<pubDate>Wed, 09 Feb 2022 21:24:35 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
 		<guid isPermaLink="false">https://myremixapp.wpengine.com/?p=9</guid>
@@ -297,7 +297,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":10,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://uyghurrebuild.local/wp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg" alt="" class="wp-image-10"/><figcaption>Magical Narwals</figcaption></figure>
+<figure class="wp-block-image size-full"><img src="https://uyghurrebuildt.wpenginepowered.comwp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg" alt="" class="wp-image-10"/><figcaption>Magical Narwals</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -346,10 +346,10 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							</item>
 					<item>
 		<title><![CDATA[Male narwhals in Admiralty Inlet, Nunavut, Canada]]></title>
-		<link>http://uyghurrebuild.local/narwal/male-narwhals-in-admiralty-inlet-nunavut-canada/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comnarwal/male-narwhals-in-admiralty-inlet-nunavut-canada/</link>
 		<pubDate>Thu, 10 Feb 2022 16:16:04 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/wp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.comwp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Male narwhals (Monodon monoceros) caress one another with their tusks in Admiralty Inlet, Nunavut, Canada.]]></excerpt:encoded>
@@ -367,7 +367,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://uyghurrebuild.local/wp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://uyghurrebuildt.wpenginepowered.comwp-content/uploads/2022/02/7mb04lllbq_Medium_WW248926.jpeg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2022/02/7mb04lllbq_Medium_WW248926.jpeg]]></wp:meta_value>
@@ -379,10 +379,10 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							</item>
 					<item>
 		<title><![CDATA[Home]]></title>
-		<link>http://uyghurrebuild.local/home/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comhome/</link>
 		<pubDate>Fri, 01 Apr 2022 16:59:53 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/home/</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.comhome/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -436,10 +436,10 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							</item>
 					<item>
 		<title><![CDATA[WP Engine]]></title>
-		<link>http://uyghurrebuild.local/wp-engine/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comwp-engine/</link>
 		<pubDate>Fri, 01 Apr 2022 16:59:53 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/wp-engine/</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.comwp-engine/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -493,10 +493,10 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							</item>
 					<item>
 		<title><![CDATA[Developers Site]]></title>
-		<link>http://uyghurrebuild.local/developers-site/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comdevelopers-site/</link>
 		<pubDate>Fri, 01 Apr 2022 16:59:53 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/developers-site/</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.comdevelopers-site/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -550,7 +550,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>http://uyghurrebuild.local/wp-global-styles-genesis-block-theme/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comwp-global-styles-genesis-block-theme/</link>
 		<pubDate>Tue, 29 Mar 2022 14:33:27 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
 		<guid isPermaLink="false">https://myremixapp.wpengine.com/wp-global-styles-genesis-block-theme/</guid>
@@ -575,10 +575,10 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 						</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>http://uyghurrebuild.local/wp-global-styles-twentytwentytwo/</link>
+		<link>https://uyghurrebuildt.wpenginepowered.comwp-global-styles-twentytwentytwo/</link>
 		<pubDate>Fri, 01 Apr 2022 17:00:15 +0000</pubDate>
 		<dc:creator><![CDATA[adming]]></dc:creator>
-		<guid isPermaLink="false">http://uyghurrebuild.local/wp-global-styles-twentytwentytwo/</guid>
+		<guid isPermaLink="false">https://uyghurrebuildt.wpenginepowered.comwp-global-styles-twentytwentytwo/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
