@@ -1,7 +1,7 @@
 
 export default function Statistics() {
     return (
-        <div className="stats stats-vertical w-[90%] m-auto text-center text-lg lg:text-3xl lg:stats-horizontal shadow">
+        <div className="stats stats-vertical w-[90%] m-auto text-center text-lg lg:text-3xl shadow">
         
             <div className="stat">
                 <div className="stat-title">Business loans of total</div>

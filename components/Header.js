@@ -17,8 +17,8 @@ export default function Header() {
           </details>
           <a className="btn btn-ghost text-md sm:text-lg font-sans">Placeholder</a>
         </div>
-        <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-sans text-lg">
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal font-sans text-[16px] mr-10">
             <li><a>About Us</a></li>
             <li><a>Our Work</a></li>
             <li><a>Where we work</a></li>
@@ -27,8 +27,8 @@ export default function Header() {
         </div>
         <div className="navbar-end">
         
-          <a className="btn hidden sm:flex md:text-lg btn-neutral lg:mr-2 mr-1">Apply For Help</a>
-          <a className="btn hidden sm:flex md:text-lg lg:mr-2">Donate</a>
+          <a className="btn hidden sm:flex text-md btn-neutral lg:mr-2 mr-1">Apply For Help</a>
+          <a className="btn hidden sm:flex text-md lg:mr-2">Donate</a>
           <select className="select text-xs lg:text-md pr-5 select-ghost max-w-22">
           <option disabled selected>LANG</option>
           <option>English</option>
