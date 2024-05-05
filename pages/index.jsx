@@ -5,10 +5,9 @@ import Project from '../components/Project';
 import { client } from "../lib/apollo";
 import { gql } from '@apollo/client';
 import Statistics from '../components/Statistics';
-import CheckoutPage from '../components/CheckoutPage';
 
+export default function App({ posts }) {
 
-export default function Home({ posts }) {
   return (
     <div className="container">
       <Head>
@@ -55,6 +54,7 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
+
         <div className="hero h-80 w-auto bg-red-300 mb-20">
           <p className="text-xl">SOCIAL MEDIA STRIP (GraphAPI)</p>
         </div>

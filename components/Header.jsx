@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
       <div className="navbar w-screen  bg-blue-300 bg-opacity-75">
@@ -12,7 +14,7 @@ export default function Header() {
               <li><a>Where we work</a></li>
               <li><a>Join Us</a></li>
               <li className="sm:hidden"><a className="btn btn-neutral w-fit mb-2">Apply For Help</a></li>
-              <li className="sm:hidden"><a className="btn btn-neutral w-fit ">Donate</a></li>
+              <li className="sm:hidden"><a href="../pages/donation" className="btn btn-neutral w-fit ">Donate</a></li>
             </ul>
           </details>
           <a className="btn btn-ghost text-md sm:text-lg font-sans">Placeholder</a>
@@ -28,7 +30,9 @@ export default function Header() {
         <div className="navbar-end">
         
           <a className="btn hidden sm:flex text-md btn-neutral lg:mr-2 mr-1">Apply For Help</a>
-          <a className="btn hidden sm:flex text-md lg:mr-2">Donate</a>
+          <Link href="/donation">
+            <a className="btn hidden sm:flex text-md lg:mr-2">Donate</a>
+          </Link>
           <select className="select text-xs lg:text-md pr-5 select-ghost max-w-22">
           <option disabled selected>LANG</option>
           <option>English</option>
