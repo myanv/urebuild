@@ -50,7 +50,7 @@ export default function CheckoutForm() {
     const { error } = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "http://localhost:3000/donation",
+        return_url: "http://localhost:3000/",
       },
     });
 
@@ -70,7 +70,7 @@ export default function CheckoutForm() {
   return (
     <form id="payment-form" onSubmit={handleSubmit}>
       <PaymentElement id="payment-element" options={paymentElementOptions} />
-      <button disabled={isLoading || !stripe || !elements} id="submit">
+      <button className="btn btn-neutral" disabled={isLoading || !stripe || !elements} id="submit">
         <span id="button-text">
           {isLoading ? <div className="spinner" id="spinner"></div> : "Donate"}
         </span>
